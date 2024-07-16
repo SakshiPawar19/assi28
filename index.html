@@ -4,36 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Text Matcher</title>
-    
-
-
+    <link rel="stylesheet" href="style.css"/>
 </head>
+<body>
+    <div class="main">
+        <div class="input-boxs-holder">
+            <p><h1>Text Matcher</h1></p>
+            <input type="text" id="input-field1" />
+          <br/>
+            <input type="text" id="input-field2" />
+        </div>
 
+        <div class="button-holder">
+            <button onclick="TextMatch()">Click</button>
+            <button onclick="Reset()">Reset</button>
+        </div>
 
-<script>
-    function calArea(a,b){
-        const area=a*b;
-        console.log('Area of rectangle is ${area}')
-    }
-    calArea(5,6)
+        <div class="Result-holder">
+            <span id="Result"></span>
+        </div>
 
-    // function calculate(a1,a2){
-    //     const sum = a1 + a2;
-    //     console.log('Sum is ${sum}');
-    // }
-    // calculate(2,3);
-
-    // function demo(){
-    // console.log("________________")
-    // console.log("This is a sample message")
-    // console.log("###################")
-    // }
-    // demo()
-    // demo()
-    // demo()
-    // demo()
-    // demo()
-
-</script>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
